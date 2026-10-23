@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://cke2b101p6fer"]
+
+[ext_resource type="Texture2D" uid="uid://cxm07f6jipqka" path="res://icon.svg" id="1_0xm2m"]
+[ext_resource type="Script" uid="uid://cfgcntsa754i4" path="res://movement.gd" id="2_h2yge"]
+
+[node name="Main" type="Node2D" unique_id=478220164]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=591805477]
+position = Vector2(574, 330)
+texture = ExtResource("1_0xm2m")
+script = ExtResource("2_h2yge")
+
+[node name="Label" type="Label" parent="." unique_id=1941250237]
+offset_left = 380.0
+offset_top = 161.0
+offset_right = 765.0
+offset_bottom = 231.0
+theme_override_font_sizes/font_size = 40
+text = "New project!!!"
+horizontal_alignment = 1
+vertical_alignment = 1
