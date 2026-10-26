@@ -16,3 +16,5 @@ vertical_alignment = 1
 
 [node name="player" parent="." unique_id=673415167 instance=ExtResource("1_ig7tw")]
 position = Vector2(582, 348)
+ACCELERATION = 1000.0
+FRICTION = 200.0
